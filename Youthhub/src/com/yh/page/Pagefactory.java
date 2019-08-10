@@ -36,4 +36,15 @@ public class Pagefactory {
 			//log.info("Explore opened successfully");
 
 }
+		public void Signin1(String user,String pass) {
+			id.sendKeys(user);
+			log.info("username sends successfully");
+			pss.sendKeys(pass);
+			log.info("password sends successfully");
+			lg.click();
+			log.info("application logins successfully");
+			//exp.click();
+			//log.info("Explore opened successfully");
+
+}
 }
